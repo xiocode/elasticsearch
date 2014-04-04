@@ -104,7 +104,7 @@ node.data: true
 
 # Set the number of shards (splits) of an index (5 by default):
 #
-index.number_of_shards: 50
+index.number_of_shards: 10
 
 # Set the number of replicas (additional copies) of an index (1 by default):
 #
@@ -397,7 +397,7 @@ index.analysis.analyzer.default.type : "mmseg"
 
 # optimize
 index.translog.flush_threshold_period: 60s
-index.refresh_interval: 60s
+index.refresh_interval: 30s
 indices.memory.index_buffer_size: 50%
 indices.memory.min_index_buffer_size: 300m
 index.translog.flush_threshold: 30000
