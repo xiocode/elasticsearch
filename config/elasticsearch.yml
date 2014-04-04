@@ -29,7 +29,7 @@
 # Cluster name identifies your cluster for auto-discovery. If you're running
 # multiple clusters on the same network, make sure you're using unique names.
 #
-cluster.name: elasticsearch.buzzreader
+cluster.name: buzzreader
 
 
 #################################### Node #####################################
@@ -213,7 +213,7 @@ bootstrap.mlockall: true
 
 # Set a custom port for the node to node communication (9300 by default):
 #
-# transport.tcp.port: 9300
+transport.tcp.port: 9600
 
 # Enable compression for all communication between nodes (disabled by default):
 #
@@ -221,7 +221,7 @@ bootstrap.mlockall: true
 
 # Set a custom port to listen for HTTP traffic:
 #
-# http.port: 9200
+http.port: 9500
 
 # Set a custom allowed content length:
 #
