@@ -146,7 +146,7 @@ index.number_of_replicas: 0
 
 # Path to directory where to store index data allocated for this node.
 #
-path.data: /home/elasticsearch
+# path.data: /home/elasticsearch
 #
 # Can optionally include more than one location, causing data to be striped across
 # the locations (a la RAID 0) on a file level, favouring locations with most free
@@ -160,7 +160,7 @@ path.data: /home/elasticsearch
 
 # Path to log files:
 #
-path.logs: /home/elasticsearch
+# path.logs: /home/elasticsearch
 
 # Path to where plugins are installed:
 #
@@ -213,7 +213,7 @@ bootstrap.mlockall: true
 
 # Set a custom port for the node to node communication (9300 by default):
 #
-transport.tcp.port: 9600
+transport.tcp.port: 9900
 
 # Enable compression for all communication between nodes (disabled by default):
 #
@@ -221,7 +221,7 @@ transport.tcp.port: 9600
 
 # Set a custom port to listen for HTTP traffic:
 #
-http.port: 9500
+http.port: 9800
 
 # Set a custom allowed content length:
 #
