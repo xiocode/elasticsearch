@@ -403,3 +403,5 @@ indices.memory.min_index_buffer_size: 300m
 index.translog.flush_threshold: 30000
 index.store.type: mmapfs
 index.merge.policy.use_compound_file: false
+
+thrift.port: 9500
